@@ -35,18 +35,18 @@ All project datasets, scripts, and notebooks are housed within the `Files/` dire
 
 ### 📓 Google Colab Notebooks
 These `.ipynb` files are fully compatible with Google Colab. Simply upload them to your Google Drive and open them with Colab to leverage cloud GPUs.
-*   **`atomai_training_data-STL.ipynb`** & **`atomai_training_data-STLv2.ipynb`**: Core tutorials for preparing training data using AtomAI. Covers the simulation of training sets and formatting experimental inputs.
-*   **`MoS2-Atom detection.ipynb`**: A practical implementation of supervised learning to identify pristine lattice sites and specific defects (Mo/S vacancies and adatoms) in MoS2 structures.
-*   **`SingleImage-Nanoparticles-Colab.ipynb`**: A Colab-specific notebook focusing on extracting visual features, contour detection, and segmentation mapping for nanoparticle datasets.
+*   [**`atomai_training_data-STL.ipynb`**](Files/atomai_training_data-STL.ipynb) & [**`atomai_training_data-STLv2.ipynb`**](Files/atomai_training_data-STLv2.ipynb): Core tutorials for preparing training data using AtomAI. Covers the simulation of training sets and formatting experimental inputs.
+*   [**`MoS2-Atom detection.ipynb`**](Files/MoS2-Atom%20detection.ipynb): A practical implementation of supervised learning to identify pristine lattice sites and specific defects (Mo/S vacancies and adatoms) in MoS2 structures.
+*   [**`SingleImage-Nanoparticles-Colab.ipynb`**](Files/SingleImage-Nanoparticles-Colab.ipynb): A Colab-specific notebook focusing on extracting visual features, contour detection, and segmentation mapping for nanoparticle datasets.
 
 ### 📊 Datasets & Raw Images
-*   **`2H-MoS2.npy`** & **`2H-MoS2.json`**: Experimental lattice images and atomic coordinate ground-truths for 2H-phase MoS2.
-*   **`3R_0.npy`** & **`3R_0.json`**: Experimental images and coordinate annotations for 3R-phase materials.
-*   **`0.png`**: Raw high-resolution image data utilized in the extraction and processing pipelines.
+*   [**`2H-MoS2.npy`**](Files/2H-MoS2.npy) & [**`2H-MoS2.json`**](Files/2H-MoS2.json): Experimental lattice images and atomic coordinate ground-truths for 2H-phase MoS2.
+*   [**`3R_0.npy`**](Files/3R_0.npy) & [**`3R_0.json`**](Files/3R_0.json): Experimental images and coordinate annotations for 3R-phase materials.
+*   [**`0.png`**](Files/0.png): Raw high-resolution image data utilized in the extraction and processing pipelines.
 
 ### 🧠 Synthetic Data & Trained Models
-*   **`Synthetic_train_test.npz`**: A comprehensive archive of simulated training and testing data, infused with modeled imperfections (shear, rotation, noise) to train robust models. *(Note: Requires Git LFS due to file size)*.
-*   **`Trained-Images.npz`**: Stored arrays containing model outputs, probability maps, or pre-trained network states for rapid deployment.
+*   [**`Synthetic_train_test.npz`**](Files/Synthetic_train_test.npz): A comprehensive archive of simulated training and testing data, infused with modeled imperfections (shear, rotation, noise) to train robust models. *(Note: Requires Git LFS due to file size)*.
+*   [**`Trained-Images.npz`**](Files/Trained-Images.npz): Stored arrays containing model outputs, probability maps, or pre-trained network states for rapid deployment.
 
 ---
 
