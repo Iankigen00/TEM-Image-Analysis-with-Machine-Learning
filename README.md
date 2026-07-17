@@ -31,6 +31,8 @@ To build robust models without relying solely on hand-labeled data, we generate 
 
 ## 🗂️ Repository Structure
 
+All project datasets, scripts, and notebooks are housed within the `Files/` directory.
+
 ### 📓 Google Colab Notebooks
 These `.ipynb` files are fully compatible with Google Colab. Simply upload them to your Google Drive and open them with Colab to leverage cloud GPUs.
 *   **`atomai_training_data-STL.ipynb`** & **`atomai_training_data-STLv2.ipynb`**: Core tutorials for preparing training data using AtomAI. Covers the simulation of training sets and formatting experimental inputs.
@@ -51,7 +53,7 @@ These `.ipynb` files are fully compatible with Google Colab. Simply upload them 
 ## 🚀 Getting Started with Google Colab
 
 1. **Clone or Download:** Download the repository files to your local machine or Google Drive.
-2. **Upload to Colab:** Go to [Google Colab](https://colab.research.google.com/), click "Upload", and select any of the `.ipynb` notebooks.
+2. **Upload to Colab:** Go to [Google Colab](https://colab.research.google.com/), click "Upload", and select any of the `.ipynb` notebooks from the `Files/` folder.
 3. **Install Dependencies:** Inside the first cell of your Colab notebook, ensure AtomAI is installed by running:
    ```python
    !pip install git+[https://github.com/pycroscopy/atomai](https://github.com/pycroscopy/atomai)
